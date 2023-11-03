@@ -6,7 +6,8 @@ const Layout = () => {
         <nav className='nav'>
             <ul className='ul'>
                 <li><Link to="/Inicio">Inicio</Link></li>
-                <li><Link to="/AdministracionCostos">AdministracionCostos</Link></li>
+                <li><Link to="/AdministracionCostos">Administracion de costos</Link></li>
+                <li><Link to="/Planes">Planes</Link></li>
             </ul>
         </nav>
     </header> 
