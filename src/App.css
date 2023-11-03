@@ -141,6 +141,9 @@
   justify-content: space-between;
   padding: 60px 40px;
 }
+.sec-diferentes-cantidades table{
+  width: 100%;
+}
 .sec-diferentes-cantidades table tr:nth-child(1) {
   background-color: rgb(182, 255, 194);
 }
