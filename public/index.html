@@ -9,28 +9,217 @@
       content="Web site created using create-react-app"
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
-
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />    
+    <link rel="stylesheet" href="../src/App.css">
     <title>Sistema de gestion de productos</title>
     <link rel="shortcut icon" href="./logo.jpg" type="image/x-icon">
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    
+    <main class='main' id="cont-main">
+      <section class='sec-funciones-principales'>
+        <article class='articulo-funciones'>
+          <img src="https://www.agri.mx/wp-content/uploads/2022/09/1.png" alt=""></img>
+          <div class='articulo-textos'>
+            <p class='articulo-encabezado'>Administar costos</p>
+            <p>Aqui puedes puedes calcular el costo de los productos</p>
+            <button class='articulo-boton'>Entrar</button>
+          </div>
+        </article>
+        <article class='articulo-funciones'>
+          <img src="https://www.agri.mx/wp-content/uploads/2022/09/2.png" alt=""></img>
+          <div class='articulo-textos'>
+            <p class='articulo-encabezado'>Planes</p>
+            <p>Aqui puedes agregar un plan semanal, en el cual se pueda trabajar sobre ella</p>
+            <button class='articulo-boton'>Entrar</button>
+          </div>
+        </article>
+        <article class='articulo-funciones'>
+          <img src="https://www.agri.mx/wp-content/uploads/2022/09/3.png" alt=""></img>
+          <div class='articulo-textos'>
+            <p class='articulo-encabezado'>Coordinacion</p>
+            <p>Aqui puedes cordinar los pedidos, en donde se envian y en que fechas</p>
+            <button class='articulo-boton'>Entrar</button>
+          </div>
+        </article>
+        <article class='articulo-funciones'>
+          <img src="https://www.agri.mx/wp-content/uploads/2022/09/4.png" alt=""></img>
+          <div class='articulo-textos'>
+            <p class='articulo-encabezado'>Administar productos del almacen</p>
+            <p>Aqui puedes agregar o eliminar los productos existentes que se encuentran en el almace</p>
+            <button class='articulo-boton'>Entrar</button>
+          </div>
+        </article>
+      </section>
+    </main>
 
+    
+    <main class='main costos'>
+      <section class="subtitulo-costos">
+        <h3>Calculo de costos fijo y Costo Variable</h3>
+      </section>
+      <section class="sec-fijo-variable">
+        <table>
+          <tr>
+            <th>DATOS</th>
+            <th>Ingrese los datos de producción</th>
+            <th></th>
+          </tr>
+          <tr>
+            <td>Cantidad</td>
+            <td>75</td>
+            <td>Unidades producidas</td>
+          </tr>
+          <tr>
+            <td>Costo Fijo</td>
+            <td>$ 30,00</td>
+            <td>$</td>
+          </tr>
+          <tr>
+            <td>Costo Variable</td>
+            <td>$ 0,80</td>
+            <td>$</td>
+          </tr>
+          <tr>
+            <td>Precio de Venta</td>
+            <td>$ 1,20</td>
+            <td>$</td>
+          </tr>
+        </table>  
+        
+        <table>
+          <tr>
+            <th>RESULTADOS</th>
+            <th></th>
+          </tr>
+          <tr>
+            <td>INGRESO TOTAL</td>
+            <td>$90,00</td>
+          </tr>
+          <tr>
+            <td>COSTO VARIABLE TOTAL</td>
+            <td>$60,00</td>
+          </tr>
+          <tr>
+            <td>COSTOS TOTALES (CF+CV)</td>
+            <td>$90,00</td>
+          </tr>
+          <tr>
+            <td>COSTO MEDIO</td>
+            <td>$1,20</td>
+          </tr>
+        </table>
+      </section>
+      <section class="subtitulo-costos">
+        <h3>CÁLCULO DE COSTOS E INGRESOS PARA DIFERENTES CANTIDADES</h3>
+        <p>Ingrese en cada fila las cantidades que quiera simular</p>
+      </section>
+      <section class="sec-diferentes-cantidades">
+        <table>
+          <tr>
+            <th>CANTIDAD</th>
+            <th>COSTOS FIJOS POR UNIDAD</th>
+            <th>COSTO VARIABLE</th>
+            <th>COSTO TOTAL (CF+CV)</th>
+            <th>COSTO MEDIO (CF+CV/CANTIDAD)</th>
+            <th>INGRESO TOTAL</th>
+          </tr>
+          <tr>
+            <td>0</td>
+            <td></td>
+            <td>$ 0,00</td>
+            <td>$ 30,00</td>
+            <td>$ 0,00</td>
+            <td>$ 0,00</td>
+          </tr>
+          <tr>
+            <td>10</td>
+            <td>$ 3,00</td>
+            <td>$ 8,00</td>
+            <td>$ 38,00</td>
+            <td>$ 3,80</td>
+            <td>$ 12,00</td>
+          </tr>
+          <tr>
+            <td>20</td>
+            <td>$ 1,50</td>
+            <td>$ 16,00</td>
+            <td>$ 46,00</td>
+            <td>$ 2,30</td>
+            <td>$ 24,00</td>
+          </tr>
+          <tr>
+            <td>30</td>
+            <td>$ 1,00</td>
+            <td>$ 24,00</td>
+            <td>$ 54,00</td>
+            <td>$ 1,80</td>
+            <td>$ 36,00</td>
+          </tr>
+          <tr>
+            <td>40</td>
+            <td>$ 0,75</td>
+            <td>$ 32,00</td>
+            <td>$ 62,00</td>
+            <td>$ 1,55</td>
+            <td>$ 48,00</td>
+          </tr>
+          <tr>
+            <td>50</td>
+            <td>$ 0,60</td>
+            <td>$ 40,00</td>
+            <td>$ 70,00</td>
+            <td>$ 1,40</td>
+            <td>$ 60,00</td>
+          </tr>
+          <tr>
+            <td>60</td>
+            <td>$ 0,50</td>
+            <td>$ 48,00</td>
+            <td>$ 78,00</td>
+            <td>$ 1,30</td>
+            <td>$ 72,00</td>
+          </tr>
+          <tr>
+            <td>70</td>
+            <td>$ 0,43</td>
+            <td>$ 56,00</td>
+            <td>$ 86,00</td>
+            <td>$ 1,23</td>
+            <td>$ 84,00</td>
+          </tr>
+          <tr>
+            <td>80</td>
+            <td>$ 0,38</td>
+            <td>$ 64,00</td>
+            <td>$ 94,00</td>
+            <td>$ 1,18</td>
+            <td>$ 96,00</td>
+          </tr>
+          <tr>
+            <td>90</td>
+            <td>$ 0,33</td>
+            <td>$ 72,00</td>
+            <td>$ 102,00</td>
+            <td>$ 1,13</td>
+            <td>$ 108,00</td>
+          </tr>
+          <tr>
+            <td>100</td>
+            <td>$ 0,30</td>
+            <td>$ 80,00</td>
+            <td>$ 110,00</td>
+            <td>$ 1,10</td>
+            <td>$ 120,00</td>
+          </tr>
+        </table>
+        <img src="./img/tabla-costos.png" alt="">
+      </section>
+      <section class="sec-boton">
+        <button>Imprimir</button>
+      </section>
+    </main>
 
   </body>
 </html>

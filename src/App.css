@@ -103,3 +103,59 @@
 .articulo-boton:hover {
   background-color: #24783f;
 }
+
+/* ---------------- */
+.main.costos {
+  padding: 0;
+
+}
+.subtitulo-costos {
+  width: 100%;
+  background-color: #92edaf;
+  padding: 20px;
+  color: rgb(45, 45, 45);
+  font-size: 25px;
+  font-weight: bolder;  
+}
+.subtitulo-costos p {
+  font-size: 18px;
+}
+.costos table {
+  width: 45%;
+  background-color: rgb(230, 230, 230);    
+}
+.costos table, tr, td {
+  border: 1px solid;
+  padding: 10px;    
+}
+.sec-fijo-variable {
+  display:  flex;
+  justify-content: space-between;
+  padding: 60px 40px;
+}
+.sec-fijo-variable table td:nth-child(1) {
+  background-color: rgb(182, 255, 194);
+}
+.sec-diferentes-cantidades {
+  display:  flex;
+  justify-content: space-between;
+  padding: 60px 40px;
+}
+.sec-diferentes-cantidades table tr:nth-child(1) {
+  background-color: rgb(182, 255, 194);
+}
+.sec-diferentes-cantidades th {
+  border: 1px solid;
+  padding: 10px;    
+}
+.sec-boton {
+  display:  flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 40px;
+}
+.sec-boton button {
+  padding: 15px 20px;
+  font-size: 18px;
+  background-color: rgb(182, 255, 194);
+}
