@@ -4,6 +4,7 @@ import Layout  from "./page/Layout";
 import Inicio from "./page/Inicio";
 import AdministracionCostos from "./page/AdministracionCostos";
 import Planes from "./page/Planes";
+import Coordinacion from "./page/Coordinacion";
 function App() {
   return (
     <><div>
@@ -12,6 +13,7 @@ function App() {
           <Route path="AdministracionCostos" element={<AdministracionCostos />} />
           <Route path="Inicio" element={<Inicio />} />
           <Route path="Planes" element={<Planes />} />
+          <Route path="Coordinacion" element={<Coordinacion />} />
           <Route path="*" element={<default />} />
         </Route>
       </Routes>
