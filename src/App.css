@@ -239,3 +239,54 @@
   border: 1px solid;
   padding: 10px;    
 }
+
+/* --------  AdministrarProductos  -------- */
+.main.administrar-producto {
+  padding: 0;
+}
+.subtitulo-administrar-producto {
+  width: 100%;
+  background-color: #92edaf;
+  padding: 20px;
+  color: rgb(45, 45, 45);
+  font-size: 25px;
+  font-weight: bolder;  
+  text-transform: uppercase;
+}
+.administrar-producto  table {  
+  width: 80%;
+  background-color: rgb(230, 230, 230);    
+}
+.administrar-producto table, tr, td {
+  border: 1px solid;
+  padding: 10px;    
+}
+.sec-administrar-producto table thead tr:nth-child(1) {
+  background-color: rgb(182, 255, 194);
+}
+.sec-administrar-producto th {
+  border: 1px solid;
+  padding: 10px;    
+}
+.variedad-producto {
+  display: flex;
+  width: 100%;
+}
+.col {
+  width: 50%;
+  border-right: 6px solid rgb(153, 153, 153);    
+  display: flex;
+  flex-direction: column;
+}
+.col .sec-administrar-producto {
+  margin:  0 auto;
+  padding: 60px;
+} 
+.col table {
+  width: 35vw;
+}
+.sec-administrar-producto.venta {
+  display: flex;
+  justify-content: center;
+  padding: 60px;
+}
