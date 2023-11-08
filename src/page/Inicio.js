@@ -7,7 +7,7 @@ const htmlelementos = <><header className='header'>
         <ul className='ul'>
             <li id="inicio"><Link to="/Inicio">Inicio</Link></li>
             <li><Link to="/Cuenta">Cuenta</Link></li>           
-            <li><Link to="/">Sesion</Link></li>
+            <li><Link to="/Sesion">Sesion</Link></li>
         </ul>
     </nav>
 </header><main className='main' id="cont-main"><section className='sec-funciones-principales'>

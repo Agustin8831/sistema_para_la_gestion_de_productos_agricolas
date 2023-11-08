@@ -42,6 +42,9 @@ const Cuenta = () => {
         </table>
 
       </section>
+      <section className="sec-boton">
+        <button>Modificar</button>
+      </section>
     </main>;
   }
   export default Cuenta;
