@@ -380,3 +380,47 @@
   -ms-border-radius: 100%;
   -o-border-radius: 100%;
 }
+#btn-salir a {
+  text-decoration: none;
+  padding: 15px 40px;
+  font-size: 18px;
+  background-color: rgb(182, 255, 194);
+  border: 1px solid;
+}
+/* --------  Ingresar  -------- */
+.sec-sesion {
+  width: 80%;
+}
+.sesion figure {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+#btn-ingresar {
+  text-decoration: none;
+  padding: 15px 40px;
+  font-size: 18px;
+  background-color: rgb(182, 255, 194);
+  border: 1px solid;
+  margin-top: 10px;
+  display: inline-block;
+}
+.sec-sesion label {
+  font-size: 20px;
+  font-weight: bold;  
+}
+.sec-sesion input {
+  margin-top: 10px;
+  margin-bottom: 40px;
+  width: 100%;
+  padding: 20px;
+  font-size: 16px;
+  border: 0;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.207);
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}

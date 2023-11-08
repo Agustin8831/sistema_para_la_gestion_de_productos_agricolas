@@ -1,3 +1,5 @@
+import { Outlet, Link } from "react-router-dom";
+
 const Sesion = () => {   
   
     var inicio = document.getElementById("inicio");
@@ -17,7 +19,9 @@ const Sesion = () => {
             <h2>Nombre del usuario</h2>
             </div>
             <section className="sec-boton">
-                <button>Salir</button>
+                <div id="btn-salir">
+                    <Link to="/Ingresar">Salir</Link>
+                </div>
             </section>
         </figure>
       </section>

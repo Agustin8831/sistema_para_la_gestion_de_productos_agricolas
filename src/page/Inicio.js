@@ -1,6 +1,6 @@
 import { Outlet, Link } from "react-router-dom";
 
-const htmlelementos = <><header className='header'>
+const htmlelementos = <><header id="hdr" className='header'>
     <h1>Sistema de gestion de productos</h1>
     <img src="http://pinosanquintin.com.mx/img/logo.png" alt=""></img>
     <nav className='nav'>
@@ -46,7 +46,6 @@ const htmlelementos = <><header className='header'>
 </section></main><Outlet /></>;
 
 
-
-const Inicio = () => {
+const Inicio = () => {    
     return htmlelementos;}
 export default Inicio;
