@@ -43,6 +43,22 @@
   text-decoration: none;
   color: white;
 }
+.li-funciones {
+  position: relative;
+}
+.ul-funciones {
+  top: 50px;
+  display: none;
+  flex-direction: column;
+  position: absolute;  
+}
+.ul-funciones li {
+  border-radius: 0 !important;
+  -webkit-border-radius: 0 !important;
+  -moz-border-radius: 0 !important;
+  -ms-border-radius: 0 !important;
+  -o-border-radius: 0 !important;
+}
 .main {
   padding: 20px 40px;
   min-height: 100vh;
@@ -87,7 +103,10 @@
   font-weight: bold;
   font-size: 24px;  
 }
-.articulo-boton {
+.articulo-funciones a {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
   border: 0;
   width: 100%;
   background-color: #2ba251;
@@ -101,7 +120,7 @@
   color: white;
   font-size: 16px;  
 }
-.articulo-boton:hover {
+.articulo-funciones a:hover {
   background-color: #24783f;
 }
 
@@ -290,4 +309,39 @@
   display: flex;
   justify-content: center;
   padding: 60px;
+}
+/* --------  AdministrarProductos  -------- */
+.main.cuenta {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.subtitulo-cuenta {
+  width: 100%;
+  background-color: #92edaf;
+  padding: 20px;
+  color: rgb(45, 45, 45);
+  font-size: 25px;
+  font-weight: bolder;  
+  text-transform: uppercase;
+}
+.sec-cuenta {
+  width: 60%;
+  margin-top: 60px;
+}
+.cuenta  table {  
+  width: 100%;
+  background-color: rgb(230, 230, 230);    
+}
+.cuenta table, tr, td {
+  border: 1px solid;
+  padding: 10px;    
+}
+.sec-cuenta table tr:nth-child(1) {
+  background-color: rgb(182, 255, 194);
+}
+.sec-cuenta th {
+  border: 1px solid;
+  padding: 10px;    
 }

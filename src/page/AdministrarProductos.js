@@ -7,6 +7,28 @@ const AdministracionProductos = () => {
   inicio.addEventListener("click", function() {
     contMain.style.display = "block";
   });
+  
+  // const liFunciones = document.querySelector('.li-funciones');
+  // const ulFunciones = document.querySelector('.ul-funciones');
+  // let ulVisible = false;
+  
+  // liFunciones.addEventListener('mouseover', () => {
+  //   ulFunciones.style.visibility = 'visible';
+  //   ulFunciones.style.display = 'flex';
+  //   ulVisible = true;
+  // });
+  
+  // liFunciones.addEventListener('click', () => {
+  //   ulVisible = !ulVisible;
+  // });
+  
+  // document.addEventListener('click', (event) => {
+  //   if (!event.target.classList.contains('li-funciones') && ulVisible) {
+  //     ulFunciones.style.visibility = 'hidden';
+  //     ulVisible = false;
+  //   }
+  // });
+  
     return <main className="main administrar-producto">
     <div className="variedad-producto">
       <div className="col">

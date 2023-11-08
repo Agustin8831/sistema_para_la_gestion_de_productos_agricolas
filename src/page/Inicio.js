@@ -6,10 +6,8 @@ const htmlelementos = <><header className='header'>
     <nav className='nav'>
         <ul className='ul'>
             <li id="inicio"><Link to="/Inicio">Inicio</Link></li>
-            <li><Link to="/AdministracionCostos">Administracion de costos</Link></li>
-            <li><Link to="/Planes">Planes</Link></li>
-            <li><Link to="/Coordinacion">Coordinacion</Link></li>
-            <li><Link to="/AdministracionProductos">Administar productos del almacen</Link></li>
+            <li><Link to="/Cuenta">Cuenta</Link></li>           
+            <li><Link to="/">Sesion</Link></li>
         </ul>
     </nav>
 </header><main className='main' id="cont-main"><section className='sec-funciones-principales'>
@@ -47,8 +45,7 @@ const htmlelementos = <><header className='header'>
     </article>
 </section></main><Outlet /></>;
 
-// const $mainInicio = document.querySelector("#cont-main");
-// $mainInicio.style.display = 'block';
+
 
 const Inicio = () => {
     return htmlelementos;}

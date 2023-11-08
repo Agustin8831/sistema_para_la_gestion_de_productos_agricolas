@@ -7,6 +7,8 @@ const Coordinacion = () => {
   inicio.addEventListener("click", function() {
     contMain.style.display = "block";
   });
+  
+
     
     return <main className='main coordinacion'>
     <section className="subtitulo-coordinacion">

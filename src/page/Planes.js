@@ -7,7 +7,7 @@ const Planes = () => {
   inicio.addEventListener("click", function() {
     contMain.style.display = "block";
   });
-    
+  
     return <main className='main planes'>
     <section className="subtitulo-planes">
       <h3>CONTROL JORNALES</h3>

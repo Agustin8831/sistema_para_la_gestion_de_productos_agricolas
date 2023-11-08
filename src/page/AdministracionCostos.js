@@ -1,7 +1,4 @@
 const AdministracionCostos = () => {   
-  // const $mainInicio = document.querySelector("#cont-main");
-  // $mainInicio.style.display = 'none';
-
   var inicio = document.getElementById("inicio");
   var contMain = document.getElementById("cont-main");
 
@@ -10,6 +7,7 @@ const AdministracionCostos = () => {
   inicio.addEventListener("click", function() {
     contMain.style.display = "block";
   });
+
   
 
     return <main className='main costos'>
