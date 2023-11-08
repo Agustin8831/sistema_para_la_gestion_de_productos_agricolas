@@ -1,8 +1,17 @@
-import '../App.css';
-const AdministracionCostos = () => {
-    const $mainInicio = document.querySelector("#cont-main");
-    $mainInicio.style.display = 'none';
-    
+const AdministracionCostos = () => {   
+  // const $mainInicio = document.querySelector("#cont-main");
+  // $mainInicio.style.display = 'none';
+
+  var inicio = document.getElementById("inicio");
+  var contMain = document.getElementById("cont-main");
+
+  contMain.style.display = "none";
+
+  inicio.addEventListener("click", function() {
+    contMain.style.display = "block";
+  });
+  
+
     return <main className='main costos'>
     <section className="subtitulo-costos">
       <h3>Calculo de costos fijo y Costo Variable</h3>

@@ -1,8 +1,12 @@
-import '../App.css';
 const AdministracionProductos = () => {
-    const $mainInicio = document.querySelector("#cont-main");
-    $mainInicio.style.display = 'none';
-    
+  var inicio = document.getElementById("inicio");
+  var contMain = document.getElementById("cont-main");
+
+  contMain.style.display = "none";
+
+  inicio.addEventListener("click", function() {
+    contMain.style.display = "block";
+  });
     return <main className="main administrar-producto">
     <div className="variedad-producto">
       <div className="col">
