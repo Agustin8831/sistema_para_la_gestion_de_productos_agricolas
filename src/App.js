@@ -1,25 +1,33 @@
-import logo from './logo.svg';
+import { Routes, Route } from 'react-router-dom';
 import './App.css';
+import AdministracionCostos from "./page/AdministracionCostos";
+import Planes from "./page/Planes";
+import Coordinacion from "./page/Coordinacion";
+import AdministracionProductos from "./page/AdministrarProductos";
+import Sesion  from './page/Sesion';
+import Inicio from './page/Inicio';
+import Cuenta from './page/Cuenta';
+import Ingresar from './page/Ingresar';
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <><div>
+      <Routes>
+        <Route path="/" element={<Inicio />}>
+          <Route path="AdministracionCostos" element={<AdministracionCostos />} />
+          <Route path="Cuenta" element={<Cuenta />} />
+          <Route path="Ingresar" element={<Ingresar />} />
+          <Route path="Planes" element={<Planes />} />
+          <Route path="Sesion" element={<Sesion />} />
+          <Route path="Coordinacion" element={<Coordinacion />} />
+          <Route path="AdministracionProductos" element={<AdministracionProductos />} />
+          <Route path="*" element={<default />} />
+        </Route>
+      </Routes>
+    </div></>    
   );
-}
-
+};
 export default App;
+
