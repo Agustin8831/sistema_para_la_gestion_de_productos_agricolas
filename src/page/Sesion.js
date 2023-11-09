@@ -11,20 +11,20 @@ const Sesion = () => {
       contMain.style.display = "block";
     });
   
-      return <main className='main sesion'>      
-      <section className="sec-sesion">
-        <figure>
+      return <><main className='main sesion'>
+        <section className="sec-sesion">
+          <figure>
             <div>
-            <img src="https://thumbs.dreamstime.com/b/unknown-male-silhouette-profile-avatar-vector-people-175294833.jpg"></img>
-            <h2>Nombre del usuario</h2>
+              <img src="https://thumbs.dreamstime.com/b/unknown-male-silhouette-profile-avatar-vector-people-175294833.jpg"></img>
+              <h2>Nombre del usuario</h2>
             </div>
             <section className="sec-boton">
-                <div id="btn-salir">
-                    <Link to="/Ingresar">Salir</Link>
-                </div>
+              <div id="btn-salir">
+                <Link to="/Ingresar">Salir</Link>
+              </div>
             </section>
-        </figure>
-      </section>
-    </main>;
+          </figure>
+        </section>
+      </main><Outlet /></>;
   }
   export default Sesion;

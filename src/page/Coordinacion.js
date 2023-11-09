@@ -1,7 +1,6 @@
 const Coordinacion = () => {
   var inicio = document.getElementById("inicio");
   var contMain = document.getElementById("cont-main");
-
   contMain.style.display = "none";
 
   inicio.addEventListener("click", function() {

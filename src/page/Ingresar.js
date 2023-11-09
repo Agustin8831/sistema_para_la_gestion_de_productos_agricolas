@@ -1,4 +1,4 @@
-import { Outlet, Link } from "react-router-dom";
+
 const Ingresar = () => {   
     
     document.getElementById("cont-main").style.display = "none";
@@ -19,6 +19,6 @@ const Ingresar = () => {
                   </section>
               </figure>
           </section>
-      </main><Outlet /></>;
+      </main></>;
   };
   export default Ingresar;
